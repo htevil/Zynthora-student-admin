@@ -1,0 +1,226 @@
+.Main {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 1600px;
+  height: fit-content;
+  padding: 15px;
+  overflow-x: auto;
+}
+
+#M1 {
+  width: 100%;
+  height: 100%;
+  padding: 20px 20px 30px 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px 5px 0px 0px;
+  border: 0.2px solid #CDCDCD;
+}
+
+.top-div {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.main_search1 {
+  width: 28%;
+}
+
+.main_search {
+  width: 28%;
+  position: relative;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  max-width: 350px;
+  padding: 8px 12px;
+  font-size: 10px;
+  background-color: #F5F5F7;
+  border: none;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.main_search::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 1px;
+  background-image: url("../../asset/down-arrows_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  padding: 4px;
+  background-color: #dbdbdb;
+  border: 3px solid #dbdbdb;
+}
+
+.search-button {
+  padding: 6px 12px;
+  margin-left: 25px;
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #007bff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  justify-self: end;
+  border-radius: 4px;
+}
+
+#M2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 0.2px solid #CDCDCD;
+  border-top: none;
+  border-bottom: none;
+  overflow-x: auto;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.student-table thead {
+  background-color: #F5F5F7;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+.student-table td {
+  padding: 5px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.student-table th {
+  font-weight: 600;
+  color: #495057;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+
+.student-table td {
+  font-size: 9px;
+  color: #495057;
+}
+
+.filter_class {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_img {
+  width: 5px;
+}
+
+.photo {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#Lside_block {
+  padding-left: 15px;
+}
+
+#Rside_block {
+  padding-right: 15px;
+}
+
+.Action-img {
+  width: 15px;
+}
+
+#M3 {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+  border: 0.2px solid #CDCDCD;
+  border-top: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.word-btn {
+  font-size: 8px;
+  background-color: transparent;
+  border: none;
+}
+
+.num-btn {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+@media screen and (max-width:600px) {
+
+  .main_search {
+    width: 100%;
+  }
+
+  .main_search1 {
+    width: 100%;
+  }
+
+  .bottom-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-button {
+    max-width: 75px;
+    margin-left: 0px;
+  }
+
+}

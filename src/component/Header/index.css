@@ -1,0 +1,108 @@
+header{
+    width: 100%;
+    height: 49px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.5px 0 #0000001a;
+    background-color: white;
+}
+
+.hea-search{
+    width: 35%;
+    min-width: 150px;
+    max-width: 500px;
+    background-color: #F1F1F1;
+    padding: 5px 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #cdcdcd;
+    margin-right: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+.hea_img{
+    width: 14px;
+}
+
+.profile-header {
+    width: 22%;
+    min-width: 150px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .profile-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .profile-role {
+    font-size: 8px;
+    color: #888;
+  }
+  
+  /* Actions and Icons */
+  .profile-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon-wrapper {
+    position: relative;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  /* Notification Badges */
+  .badge {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -6px;
+    right: -6px;
+    background-color: red;
+    color: #fff;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2.5px 5px ;
+  }
+  
+  .badge.blue {
+    background-color: #007bff;
+  }
+  
+  .badge.red {
+    background-color: #ff4d4d;
+  }
+  
