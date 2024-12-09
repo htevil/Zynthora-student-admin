@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Zynthora-student-admin/static/css/main.5194c8e6.css",
+    "main.js": "/Zynthora-student-admin/static/js/main.257b7e05.js",
+    "static/js/436.af2eb332.chunk.js": "/Zynthora-student-admin/static/js/436.af2eb332.chunk.js",
+    "static/media/logo.png": "/Zynthora-student-admin/static/media/logo.478d143be504a3632efe.png",
+    "static/media/profile_logo.jpg": "/Zynthora-student-admin/static/media/profile_logo.16213165ff789ce46474.jpg",
+    "index.html": "/Zynthora-student-admin/index.html",
+    "static/media/submenu_logo.svg": "/Zynthora-student-admin/static/media/submenu_logo.ef6bdaea646dd99e672f9112a8ee0de4.svg",
+    "main.5194c8e6.css.map": "/Zynthora-student-admin/static/css/main.5194c8e6.css.map",
+    "main.257b7e05.js.map": "/Zynthora-student-admin/static/js/main.257b7e05.js.map",
+    "436.af2eb332.chunk.js.map": "/Zynthora-student-admin/static/js/436.af2eb332.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5194c8e6.css",
+    "static/js/main.257b7e05.js"
+  ]
+}
